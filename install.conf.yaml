@@ -8,4 +8,5 @@
     ~/.zshrc: zshrc
     ~/.zsh: zsh
 
-
+- shell:
+    - [source ~/.zsh]
