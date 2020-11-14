@@ -1,7 +1,7 @@
 # In Home:
-git clone https://github.com/slsh/dotfiles.git
-cd dotfiles 
-./install.sh
+* git clone https://github.com/slsh/dotfiles.git
+* cd dotfiles 
+* ./install.sh
 
 # To make use of the `swuser USER` command, do the following
 1. Generate ssh keys and name the files after the users
