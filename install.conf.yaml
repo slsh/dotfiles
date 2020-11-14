@@ -4,8 +4,14 @@
     - [sh pre-install.sh, Running pre installation script]
 
 - link:
-    ~/.vimrc: vimrc
+    ~/.vim: vim/
     ~/.zsh: zsh
     ~/.zshrc:
       force: true
       path: zshrc
+
+- shell:
+    - [vim +PlugInstall +qall, Intall Plug plugins]
+
+- link:
+    ~/.vimrc: vimrc
