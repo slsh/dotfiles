@@ -11,7 +11,7 @@
       path: zshrc
 
 - shell:
-    - [vim +PlugInstall +qall, Intall Plug plugins]
+    - [vim +PlugInstall +qall, Install Plugged plugins]
 
 - link:
     ~/.vimrc: vimrc
