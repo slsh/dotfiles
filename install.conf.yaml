@@ -5,8 +5,7 @@
 
 - link:
     ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
     ~/.zsh: zsh
-
-- shell:
-    - [source ~/.zsh]
+    ~/.zshrc:
+      force: true
+      path: zshrc
