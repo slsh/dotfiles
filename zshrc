@@ -97,3 +97,4 @@ source $HOME/.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias sshhosts="sed -n 's/Host\s\(.*\)/\1/p' .ssh/config"
