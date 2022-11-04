@@ -1,6 +1,9 @@
 # In Home:
 * git clone https://github.com/slsh/dotfiles.git
-* cd dotfiles 
+* cd dotfiles
+* chmod -x pre-install.sh
+* chmod -x install.sh
+* ./pre-install.sh
 * ./install.sh
 
 # In case of several git accounts at the same service -
