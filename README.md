@@ -1,8 +1,8 @@
 # In Home:
 * git clone https://github.com/slsh/dotfiles.git
 * cd dotfiles
-* chmod -x pre-install.sh
-* chmod -x install.sh
+* chmod +x pre-install.sh
+* chmod +x install.sh
 * ./pre-install.sh
 * ./install.sh
 
